@@ -1,0 +1,94 @@
+body, html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+    position: absolute;
+    top: 220px;
+    margin-top: -130px;
+    background: url(https://lc-imageresizer-live-s.legocdn.com/resize/hp_fb_main_stage?width=1896&imageUrl=https%3a%2f%2fwww.lego.com%2fr%2fwww%2fr%2fportals%2f-%2fmedia%2fimages%2fhome%2fmainstages%2fshared%2f2018%2fhp_fb_main_stage.jpg%3fl.r%3d-1492296746);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    max-height: 510px;
+
+  .AniFan{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 0%;   
+    float: right;
+    font-size: 20%;
+  }
+
+  .puntos{
+    list-style: none;
+    position: absolute; 
+    left: 50%;  
+    font-size: 20%;
+    bottom: 20px;
+  }
+}
+
+.logo{
+  list-style: none;
+  position: absolute;
+  margin-left: 3.5%;
+}
+
+header{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin-top: 1%;
+  font-weight: 300;
+
+  ul{
+    list-style: none;
+    position: absolute;
+    left: 5%;
+    li{
+      color: rgb(37, 37, 37);
+      width: auto;
+      float: right;
+      font-size: 90%;
+      padding: 0 20px;
+    }
+  }
+
+  .blue{    
+    margin-top: 0.9%;
+    position: absolute;   
+    right: 30%;
+    color: rgb(82, 149, 227);
+    width: auto;
+    float: right;
+    font-size: 90%;
+    font-weight: 0;
+  }
+
+  .ID{
+    position: absolute;   
+    right: 12%;
+    float: right;
+    font-size: 20%;
+    color: rgb(37, 37, 37);
+  }
+
+  h4{
+    margin-top: 0;
+    position: absolute;   
+    right: 6.5%;
+    float: right;
+    font-size: 70%;
+    color: rgb(37, 37, 37);
+    font-weight: 300;
+  }
+}
